@@ -359,6 +359,7 @@ class GeofenceActivity : AppCompatActivity(),
                     }
                     .addOnFailureListener {
 
+
                     }
         }
     }
