@@ -331,6 +331,7 @@ class GeofenceActivity : AppCompatActivity(),
     // create a geofencing request object
     private fun createGeofenceRequest(geofence : Geofence?) : GeofencingRequest{
         Log.d(TAG, "createGeofenceRequest")
+
         return GeofencingRequest.Builder()
                 .setInitialTrigger(GeofencingRequest.INITIAL_TRIGGER_ENTER)
                 .addGeofence(geofence)
